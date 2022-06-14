@@ -5,10 +5,10 @@
 import random #import function random
 
 #pengisytiharan pemboleh ubah ulang dan kira
-ulang = "Y" , "y"
+ulang = "Y"
 kira = 0
 
-while ulang == "Y" or "y" :
+while ulang == "Y" :
 
     #pengisytiharan pemboleh ubah bagi 2 nombor rawak
     x = random.randint(1,10)
