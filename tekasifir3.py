@@ -4,10 +4,11 @@
 
 import random #import function random
 
-ulang = "Y"
+#pengisytiharan pemboleh ubah ulang dan kira
+ulang = "Y" , "y"
 kira = 0
 
-while ulang == "Y" :
+while ulang == "Y" or "y" :
 
     #pengisytiharan pemboleh ubah bagi 2 nombor rawak
     x = random.randint(1,10)
